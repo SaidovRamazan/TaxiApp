@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Герга.Такси</string>
+    <string name="driverBth">Я водитель</string>
+    <string name="customerBth">Я клиент</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="sign">Войти</string>
+    <string name="Registration">Регистрация</string>
+    <string name="DriverSign">Вход для водителей</string>
+    <string name="haveAcc">Еще нет аккаунта?</string>
+    <string name="CustomerSignIn">Вход для клиентов</string>
+    <string name="driverSettings">Настройки</string>
+    <string name="driverLogout">Выйти</string>
+</resources>

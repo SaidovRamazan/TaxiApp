@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".DriverRegLogActivity3">
+
+
+    <EditText
+        android:id="@+id/driverEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusDriver"
+        android:ems="10"
+        android:hint="@string/email"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/driverPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/driverEmail"
+        android:hint="@string/password"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signInDriver"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/driverPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/sign"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/signUpDriver"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signInDriver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/Registration"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/statusDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/DriverSign" />
+
+    <TextView
+        android:id="@+id/accountCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signInDriver"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/haveAcc" />
+</RelativeLayout>

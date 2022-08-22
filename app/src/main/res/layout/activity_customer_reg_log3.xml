@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".CustomerRegLogActivity3">
+
+    <EditText
+        android:id="@+id/customerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/statusCustomer"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/customerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customerEmail"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/signInCustomer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customerPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="@string/sign"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/signUpCustomer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signInCustomer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/Registration"
+        android:textAllCaps="false"
+        android:textColor="#455A64"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:backgroundTint="@null" />
+
+    <TextView
+        android:id="@+id/statusCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/CustomerSignIn" />
+
+    <TextView
+        android:id="@+id/accountCreateCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signInCustomer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/haveAcc" />
+</RelativeLayout>

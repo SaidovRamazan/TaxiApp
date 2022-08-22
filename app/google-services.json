@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793688708549",
+    "project_id": "mytaxistart",
+    "storage_bucket": "mytaxistart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793688708549:android:1659c86c8ae30d820aa7ac",
+        "android_client_info": {
+          "package_name": "com.example.mytaxistart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793688708549-pnummdk1b42qianiagnev1tecmth8psu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUX95MVIumucdYGXZULdeK93YOSphuNS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793688708549-pnummdk1b42qianiagnev1tecmth8psu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
